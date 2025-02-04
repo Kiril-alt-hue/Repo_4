@@ -10,3 +10,9 @@ from utils import five
 if __name__ == "__main__":
     numero = int(input())
     print(five(numero))
+
+from utils import dod
+# Викликає функці, яка далі додає числа
+if __name__ == "__main__":
+    a,b = [int(i)for i in input().split]
+    print(five(numero))

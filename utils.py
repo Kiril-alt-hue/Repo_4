@@ -23,3 +23,7 @@ def gcd(a, b):
         a, b = b, a % b
     return a
 
+
+def dod(a,b):
+    return(a+b)
+
