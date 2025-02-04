@@ -1,5 +1,4 @@
-from utils import factorial
-
+from utils import five
 if __name__ == "__main__":
-    num = int(input("Введіть число: "))
-    print(f"Факторіал {num} дорівнює {factorial(num)}")
+    numero = int(input())
+    print(five(numero))
