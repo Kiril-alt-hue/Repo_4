@@ -4,12 +4,18 @@ def factorial(n):
         return 1
     return n * factorial(n - 1)
 
+
+
+
 def five(numero):
     if numero <= 0:
         return False
     while numero % 5 == 0:
         numero //= 5
     return numero == 1
+
+
+
 
 def gcd(a, b):
     """Обчислення найбільшого спільного дільника (НСД) двох чисел."""
